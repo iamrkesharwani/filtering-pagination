@@ -1,4 +1,4 @@
-TRUNCATE TABLE products;
+TRUNCATE TABLE products RESTART IDENTITY;
 
 INSERT INTO products (name, price, description, in_stock) VALUES
 ('Wireless Charger', 999.00, 'Fast charging Qi pad', true),
